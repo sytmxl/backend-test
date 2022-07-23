@@ -23,8 +23,8 @@ from django.conf import settings
 
 
 urlpatterns = [
-    path(r'admin/', admin.site.urls),
-    path(r'upload', view.uploadImg),
-    path(r'show', view.showImg),
+    path(r'api/admin/', admin.site.urls),
+    path(r'api/upload', view.uploadImg),
+    path(r'api/show', view.showImg),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
