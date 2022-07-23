@@ -1,0 +1,484 @@
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jul 23 10:54:40 2022] ***
+compiled with version: 9.4.0 on 08 June 2022 06:02:44
+os: Linux-5.4.0-109-generic #123-Ubuntu SMP Fri Apr 8 09:10:54 UTC 2022
+nodename: VM-16-4-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /backend-test
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /backend-test
+your processes number limit is 7548
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jul 23 11:10:05 2022] ***
+compiled with version: 9.4.0 on 08 June 2022 06:02:44
+os: Linux-5.4.0-109-generic #123-Ubuntu SMP Fri Apr 8 09:10:54 UTC 2022
+nodename: VM-16-4-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /backend-test
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /backend-test
+your processes number limit is 7548
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+PEP 405 virtualenv detected: /root/.virtualenvs/django
+Set PythonHome to /root/.virtualenvs/django
+Python main interpreter initialized at 0x55ba537454d0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 3149820 bytes (3075 KB) for 32 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file /backend-test/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1089575)
+spawned uWSGI worker 1 (pid: 1089576, cores: 4)
+spawned uWSGI worker 2 (pid: 1089577, cores: 4)
+spawned uWSGI worker 3 (pid: 1089578, cores: 4)
+spawned uWSGI worker 4 (pid: 1089579, cores: 4)
+spawned uWSGI worker 5 (pid: 1089580, cores: 4)
+spawned uWSGI worker 6 (pid: 1089581, cores: 4)
+spawned uWSGI worker 7 (pid: 1089582, cores: 4)
+spawned uWSGI worker 8 (pid: 1089583, cores: 4)
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jul 23 11:16:07 2022] ***
+compiled with version: 9.4.0 on 08 June 2022 06:02:44
+os: Linux-5.4.0-109-generic #123-Ubuntu SMP Fri Apr 8 09:10:54 UTC 2022
+nodename: VM-16-4-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /backend-test
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /backend-test
+your processes number limit is 7548
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 1089581|app: -1|req: -1/1] 117.147.98.164 () {38 vars in 515 bytes} [Sat Jul 23 11:16:21 2022] GET /api/show => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 1089583|app: -1|req: -1/2] 117.147.98.164 () {42 vars in 734 bytes} [Sat Jul 23 11:16:35 2022] POST /api/upload => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 1089581|app: -1|req: -1/3] 117.147.98.164 () {38 vars in 515 bytes} [Sat Jul 23 11:17:12 2022] GET /api/show => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jul 23 11:21:25 2022] ***
+compiled with version: 9.4.0 on 08 June 2022 06:02:44
+os: Linux-5.4.0-109-generic #123-Ubuntu SMP Fri Apr 8 09:10:54 UTC 2022
+nodename: VM-16-4-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /backend-test
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /backend-test
+your processes number limit is 7548
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+PEP 405 virtualenv detected: /root/.virtualenvs/django
+Set PythonHome to /root/.virtualenvs/django
+Python main interpreter initialized at 0x55ffc9ee54d0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 3149820 bytes (3075 KB) for 32 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file /backend-test/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1091990)
+spawned uWSGI worker 1 (pid: 1091991, cores: 4)
+spawned uWSGI worker 2 (pid: 1091992, cores: 4)
+spawned uWSGI worker 3 (pid: 1091993, cores: 4)
+spawned uWSGI worker 4 (pid: 1091994, cores: 4)
+spawned uWSGI worker 5 (pid: 1091995, cores: 4)
+spawned uWSGI worker 6 (pid: 1091996, cores: 4)
+spawned uWSGI worker 7 (pid: 1091997, cores: 4)
+spawned uWSGI worker 8 (pid: 1091998, cores: 4)
+--- no python application found, check your startup logs for errors ---
+[pid: 1091995|app: -1|req: -1/1] 117.147.98.164 () {38 vars in 515 bytes} [Sat Jul 23 11:21:46 2022] GET /api/show => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jul 23 11:28:46 2022] ***
+compiled with version: 9.4.0 on 08 June 2022 06:02:44
+os: Linux-5.4.0-109-generic #123-Ubuntu SMP Fri Apr 8 09:10:54 UTC 2022
+nodename: VM-16-4-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /backend-test
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /backend-test
+your processes number limit is 7548
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jul 23 11:35:56 2022] ***
+compiled with version: 9.4.0 on 08 June 2022 06:02:44
+os: Linux-5.4.0-109-generic #123-Ubuntu SMP Fri Apr 8 09:10:54 UTC 2022
+nodename: VM-16-4-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /backend-test
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /backend-test
+your processes number limit is 7548
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+PEP 405 virtualenv detected: /root/.virtualenvs/django
+Set PythonHome to /root/.virtualenvs/django
+Python main interpreter initialized at 0x55703c9a14d0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 3149820 bytes (3075 KB) for 32 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file /backend-test/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1095460)
+spawned uWSGI worker 1 (pid: 1095461, cores: 4)
+spawned uWSGI worker 2 (pid: 1095462, cores: 4)
+spawned uWSGI worker 3 (pid: 1095463, cores: 4)
+spawned uWSGI worker 4 (pid: 1095464, cores: 4)
+spawned uWSGI worker 5 (pid: 1095465, cores: 4)
+spawned uWSGI worker 6 (pid: 1095466, cores: 4)
+spawned uWSGI worker 7 (pid: 1095467, cores: 4)
+spawned uWSGI worker 8 (pid: 1095468, cores: 4)
+--- no python application found, check your startup logs for errors ---
+[pid: 1095465|app: -1|req: -1/1] 59.83.208.103 () {44 vars in 714 bytes} [Sat Jul 23 11:38:18 2022] GET /api => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jul 23 11:48:05 2022] ***
+compiled with version: 9.4.0 on 08 June 2022 06:02:44
+os: Linux-5.4.0-109-generic #123-Ubuntu SMP Fri Apr 8 09:10:54 UTC 2022
+nodename: VM-16-4-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /backend-test
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /backend-test
+your processes number limit is 7548
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+PEP 405 virtualenv detected: /root/.virtualenvs/django
+Set PythonHome to /root/.virtualenvs/django
+Python main interpreter initialized at 0x562d7bfbe4d0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 3149820 bytes (3075 KB) for 32 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file /backend-test/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1098309)
+spawned uWSGI worker 1 (pid: 1098310, cores: 4)
+spawned uWSGI worker 2 (pid: 1098311, cores: 4)
+spawned uWSGI worker 3 (pid: 1098312, cores: 4)
+spawned uWSGI worker 4 (pid: 1098313, cores: 4)
+spawned uWSGI worker 5 (pid: 1098314, cores: 4)
+spawned uWSGI worker 6 (pid: 1098315, cores: 4)
+spawned uWSGI worker 7 (pid: 1098316, cores: 4)
+spawned uWSGI worker 8 (pid: 1098317, cores: 4)
+--- no python application found, check your startup logs for errors ---
+[pid: 1098313|app: -1|req: -1/1] 117.147.98.164 () {38 vars in 517 bytes} [Sat Jul 23 11:49:20 2022] GET /api/show/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 1098312|app: -1|req: -1/2] 117.147.98.164 () {42 vars in 734 bytes} [Sat Jul 23 11:49:27 2022] POST /api/upload => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 1098314|app: -1|req: -1/3] 117.147.98.164 () {38 vars in 517 bytes} [Sat Jul 23 16:02:08 2022] GET /api/show/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jul 23 16:06:44 2022] ***
+compiled with version: 9.4.0 on 08 June 2022 06:02:44
+os: Linux-5.4.0-109-generic #123-Ubuntu SMP Fri Apr 8 09:10:54 UTC 2022
+nodename: VM-16-4-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /backend-test
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /backend-test
+your processes number limit is 7548
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+--- no python application found, check your startup logs for errors ---
+[pid: 1098314|app: -1|req: -1/4] 117.147.98.164 () {38 vars in 517 bytes} [Sat Jul 23 16:06:54 2022] GET /api/show/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 2)
+--- no python application found, check your startup logs for errors ---
+[pid: 1098314|app: -1|req: -1/5] 117.147.98.164 () {38 vars in 517 bytes} [Sat Jul 23 16:06:59 2022] GET /api/show/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 2)
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jul 23 16:08:24 2022] ***
+compiled with version: 9.4.0 on 08 June 2022 06:02:44
+os: Linux-5.4.0-109-generic #123-Ubuntu SMP Fri Apr 8 09:10:54 UTC 2022
+nodename: VM-16-4-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /backend-test
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /backend-test
+your processes number limit is 7548
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8081 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+PEP 405 virtualenv detected: /root/.virtualenvs/django
+Set PythonHome to /root/.virtualenvs/django
+Python main interpreter initialized at 0x5635a8b70620
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 3149820 bytes (3075 KB) for 32 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x5635a8b70620 pid: 1139786 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1139786)
+spawned uWSGI worker 1 (pid: 1139795, cores: 4)
+spawned uWSGI worker 2 (pid: 1139796, cores: 4)
+spawned uWSGI worker 3 (pid: 1139800, cores: 4)
+spawned uWSGI worker 4 (pid: 1139801, cores: 4)
+spawned uWSGI worker 5 (pid: 1139803, cores: 4)
+spawned uWSGI worker 6 (pid: 1139806, cores: 4)
+spawned uWSGI worker 7 (pid: 1139807, cores: 4)
+spawned uWSGI worker 8 (pid: 1139811, cores: 4)
+Invalid HTTP_HOST header: '43.138.67.29:8090'. You may need to add '43.138.67.29' to ALLOWED_HOSTS.
+Bad Request: /api/show/
+[pid: 1139803|app: 0|req: 1/1] 117.147.98.164 () {38 vars in 517 bytes} [Sat Jul 23 08:08:29 2022] GET /api/show/ => generated 56796 bytes in 115 msecs (HTTP/1.1 400) 4 headers in 157 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jul 23 16:11:59 2022] ***
+compiled with version: 9.4.0 on 08 June 2022 06:02:44
+os: Linux-5.4.0-109-generic #123-Ubuntu SMP Fri Apr 8 09:10:54 UTC 2022
+nodename: VM-16-4-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /backend-test
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /backend-test
+your processes number limit is 7548
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8081).
+bind(): Address already in use [core/socket.c line 769]
+Invalid HTTP_HOST header: '43.138.67.29:8090'. You may need to add '43.138.67.29' to ALLOWED_HOSTS.
+Bad Request: /api/show/
+[pid: 1139807|app: 0|req: 1/2] 117.147.98.164 () {38 vars in 517 bytes} [Sat Jul 23 08:12:06 2022] GET /api/show/ => generated 56796 bytes in 32 msecs (HTTP/1.1 400) 4 headers in 157 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '43.138.67.29:8090'. You may need to add '43.138.67.29' to ALLOWED_HOSTS.
+Bad Request: /api/show
+[pid: 1139800|app: 0|req: 1/3] 117.147.98.164 () {38 vars in 515 bytes} [Sat Jul 23 08:13:03 2022] GET /api/show => generated 56784 bytes in 32 msecs (HTTP/1.1 400) 4 headers in 157 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '43.138.67.29:8090'. You may need to add '43.138.67.29' to ALLOWED_HOSTS.
+Bad Request: /api/upload
+[pid: 1139800|app: 0|req: 2/4] 117.147.98.164 () {42 vars in 734 bytes} [Sat Jul 23 08:13:09 2022] POST /api/upload => generated 57687 bytes in 22 msecs (HTTP/1.1 400) 4 headers in 157 bytes (1 switches on core 2)
+Invalid HTTP_HOST header: '43.138.67.29:8090'. You may need to add '43.138.67.29' to ALLOWED_HOSTS.
+Bad Request: /api/show
+[pid: 1139800|app: 0|req: 3/5] 117.147.98.164 () {38 vars in 515 bytes} [Sat Jul 23 08:14:40 2022] GET /api/show => generated 56784 bytes in 37 msecs (HTTP/1.1 400) 4 headers in 157 bytes (1 switches on core 1)
+Invalid HTTP_HOST header: '43.138.67.29:8090'. You may need to add '43.138.67.29' to ALLOWED_HOSTS.
+Bad Request: /api/show
+[pid: 1139800|app: 0|req: 4/6] 117.147.98.164 () {38 vars in 515 bytes} [Sat Jul 23 08:14:59 2022] GET /api/show => generated 56784 bytes in 20 msecs (HTTP/1.1 400) 4 headers in 157 bytes (1 switches on core 3)
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jul 23 16:16:42 2022] ***
+compiled with version: 9.4.0 on 08 June 2022 06:02:44
+os: Linux-5.4.0-109-generic #123-Ubuntu SMP Fri Apr 8 09:10:54 UTC 2022
+nodename: VM-16-4-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /backend-test
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /backend-test
+your processes number limit is 7548
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8081).
+bind(): Address already in use [core/socket.c line 769]
+Invalid HTTP_HOST header: '43.138.67.29:8090'. You may need to add '43.138.67.29' to ALLOWED_HOSTS.
+Bad Request: /api/show
+[pid: 1139807|app: 0|req: 2/7] 117.147.98.164 () {38 vars in 515 bytes} [Sat Jul 23 08:16:50 2022] GET /api/show => generated 56784 bytes in 22 msecs (HTTP/1.1 400) 4 headers in 157 bytes (1 switches on core 3)
+Sat Jul 23 08:19:02 2022 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Jul 23 08:19:02 2022 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sat Jul 23 08:19:02 2022 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jul 23 16:19:02 2022] ***
+compiled with version: 9.4.0 on 08 June 2022 06:02:44
+os: Linux-5.4.0-109-generic #123-Ubuntu SMP Fri Apr 8 09:10:54 UTC 2022
+nodename: VM-16-4-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /backend-test
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /backend-test
+your processes number limit is 7548
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8081).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jul 23 16:25:11 2022] ***
+compiled with version: 9.4.0 on 08 June 2022 06:02:44
+os: Linux-5.4.0-109-generic #123-Ubuntu SMP Fri Apr 8 09:10:54 UTC 2022
+nodename: VM-16-4-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /backend-test
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /backend-test
+your processes number limit is 7548
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8081 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+PEP 405 virtualenv detected: /root/.virtualenvs/django
+Set PythonHome to /root/.virtualenvs/django
+Python main interpreter initialized at 0x55b10de1e620
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 3149820 bytes (3075 KB) for 32 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b10de1e620 pid: 1143611 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1143611)
+spawned uWSGI worker 1 (pid: 1143616, cores: 4)
+spawned uWSGI worker 2 (pid: 1143617, cores: 4)
+spawned uWSGI worker 3 (pid: 1143621, cores: 4)
+spawned uWSGI worker 4 (pid: 1143622, cores: 4)
+spawned uWSGI worker 5 (pid: 1143625, cores: 4)
+spawned uWSGI worker 6 (pid: 1143627, cores: 4)
+spawned uWSGI worker 7 (pid: 1143628, cores: 4)
+spawned uWSGI worker 8 (pid: 1143632, cores: 4)
+Internal Server Error: /api/upload
+Traceback (most recent call last):
+  File "/root/.virtualenvs/django/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/django/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/root/.virtualenvs/django/lib/python3.8/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view project.view.uploadImg didn't return an HttpResponse object. It returned None instead.
+[pid: 1143625|app: 0|req: 1/1] 117.147.98.164 () {42 vars in 730 bytes} [Sat Jul 23 08:25:44 2022] POST /api/upload => generated 54020 bytes in 111 msecs (HTTP/1.1 500) 7 headers in 227 bytes (1 switches on core 0)
+[pid: 1143628|app: 0|req: 1/2] 117.147.98.164 () {38 vars in 511 bytes} [Sat Jul 23 08:25:56 2022] GET /api/show => generated 139 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 199 bytes (1 switches on core 0)
+Internal Server Error: /api/upload
+Traceback (most recent call last):
+  File "/root/.virtualenvs/django/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/django/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/root/.virtualenvs/django/lib/python3.8/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view project.view.uploadImg didn't return an HttpResponse object. It returned None instead.
+[pid: 1143625|app: 0|req: 2/3] 117.147.98.164 () {42 vars in 730 bytes} [Sat Jul 23 08:26:12 2022] POST /api/upload => generated 54020 bytes in 47 msecs (HTTP/1.1 500) 7 headers in 227 bytes (1 switches on core 1)
+[pid: 1143625|app: 0|req: 3/4] 117.147.98.164 () {38 vars in 511 bytes} [Sat Jul 23 08:26:22 2022] GET /api/show => generated 200 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 199 bytes (1 switches on core 2)
